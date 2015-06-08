@@ -11,21 +11,21 @@ Hardware required:
 Apart from the modem initialisation commands the rest of the code has enough comments to follow.
 
 Allowed commands:
-1 on
-1 off
-1 restart
-2 on
-2 off
-2 restart
-3 on
-3 off
-3 restart
-4 on
-4 off
-4 restart
-all on
-all off
-all restart
+- 1 on
+- 1 off
+- 1 restart
+- 2 on
+- 2 off
+- 2 restart
+- 3 on
+- 3 off
+- 3 restart
+- 4 on
+- 4 off
+- 4 restart
+- all on
+- all off
+- all restart
 
 restart command turns off the respective relay, waits 10sec and turns it back on. Its previous state is not taken into consideration.
 

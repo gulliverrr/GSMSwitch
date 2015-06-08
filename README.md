@@ -27,6 +27,7 @@ Allowed commands:
 - all off
 - all restart
 
-restart command turns off the respective relay, waits 10sec and turns it back on. Its previous state is not taken into consideration.
+All commands are case insensitive but use only latic characters and only 1 space character between the words.
+The restart command turns off the respective relay, waits 10sec and turns it back on. Its previous state is not taken into consideration. This delay is defined from the variable "RESTART_DELAY" at the top of the file.
 
 Contact me if you need more info!
